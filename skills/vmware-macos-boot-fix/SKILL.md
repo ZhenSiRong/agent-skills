@@ -1,6 +1,6 @@
 ---
 name: vmware-macos-boot-fix
-description: Diagnose and fix a macOS guest in VMware Workstation on Windows that loops between the VMware logo and the Apple logo (boot loop, "Triple fault", "CPU reset: hard" in vmware.log). Covers Hyper-V/VBS/WHP forcing VMware into compatibility mode (including the hidden Windows Hello VBS scenario), bad global VMware config.ini keys (pciHole, pciPassthru, hypervisor.cpuid.v0), rollback, and stuck Windows Update when re-enabling features. Use when the user says macOS VM keeps rebooting, bootloops, triple faults, or asks to run macOS on VMware on a Windows host.
+description: 'Diagnose and fix a macOS guest in VMware Workstation on Windows that loops between the VMware logo and the Apple logo (boot loop, "Triple fault" and "CPU reset hard" in vmware.log). Covers Hyper-V/VBS/WHP forcing VMware into compatibility mode (including the hidden Windows Hello VBS scenario), bad global VMware config.ini keys (pciHole, pciPassthru, hypervisor.cpuid.v0), rollback, and stuck Windows Update when re-enabling features. Use when the user says macOS VM keeps rebooting, bootloops, triple faults, or asks to run macOS on VMware on a Windows host.'
 ---
 
 # VMware Workstation macOS boot-loop fix (Windows host)
